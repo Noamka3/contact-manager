@@ -10,7 +10,7 @@ class FileError extends Error {
 }
 
 function getDataPath(filename) {
-  // שומר את contacts.json ליד app.js (root של הפרויקט)
+
   return path.join(process.cwd(), filename);
 }
 
