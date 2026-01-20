@@ -12,10 +12,6 @@ Commands:
   delete "email"              - Delete contact by email
   help                        - Show this help message
 
-Examples:
-  node app.js add "John Doe" "john@example.com" "555-123-4567"
-  node app.js search "john"
-  node app.js delete "john@example.com"
 `);
 }
 
