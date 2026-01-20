@@ -18,7 +18,6 @@ function validateEmail(email) {
     throw new ValidationError("Email is required");
   }
   if (!email.includes("@")) {
-    // לפי הדוגמה: חייב לכלול @
     throw new ValidationError("Email must contain @ symbol");
   }
 }
